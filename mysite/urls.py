@@ -21,5 +21,5 @@ from yyzc import views
 urlpatterns = [
     path("yyzc/", include("yyzc.urls")),
     path("admin/", admin.site.urls),
-    path('', views.item_list, name='home'),
+    path('', views.index, name='index'),
 ]
